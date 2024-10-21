@@ -1,20 +1,40 @@
-/* Header.css */
+
 .header {
-  background-color: #f9f4fc; /* Cor de fundo */
+  background-color: #f9f4fc; 
   padding: 10px 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between; /* Alinha o título e o menu */
-  align-items: center; /* Centraliza verticalmente */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
-.navbar-title h1 {
+.navbar-title{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.navbar-title h1{
   margin: 0;
-  font-size: 24px;
+  font-size: 28px;
   color: #8b09be;
+}
+
+.navbar-title p{
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 3px;
+  font-size: 15px;
+  color: rgb(120, 66, 165);
+}
+
+.navbar-title img{
+  margin: 0;
+  width: 30px;
+  margin-right: 12px;
 }
 
 .navbar-menu {
@@ -23,13 +43,13 @@
 
 .menu-items {
   display: flex;
-  list-style: none; /* Remove as bolinhas padrão da lista */
+  list-style: none; 
   margin: 0;
   padding: 0;
 }
 
 .menu-item {
-  margin-left: 20px; /* Espaçamento entre os itens */
+  margin-left: 70px; 
 }
 
 .menu-item a {
@@ -41,5 +61,5 @@
 }
 
 .menu-item a:hover {
-  color: #c270e9; /* Cor ao passar o mouse */
+  color: #c270e9; 
 }

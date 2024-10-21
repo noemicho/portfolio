@@ -1,13 +1,16 @@
 // Header.jsx
 import React from 'react';
 import '../style/Header.css';
+import iconEstrela from '../images/icon-estrela.png';
 
 function Header() {
   return (
     <div className='header'>
       <nav className="navbar">
         <div className="navbar-title">
-          <h1>Meu Portfolio</h1>
+          <img src={iconEstrela}></img>
+          <h1>Noemi Cho</h1>
+          <p>Bacharelando em Ciência da Computação</p>
         </div>
         <div className="navbar-menu">
           <ul className="menu-items">
@@ -21,7 +24,7 @@ function Header() {
               <a href="#experiencia">Experiência</a>
             </li>
             <li className="menu-item">
-              <a href="#habilidades">Habilidades</a>
+              <a href="#habilidades">Competências</a>
             </li>
             <li className="menu-item">
               <a href="#contato">Contato</a>
