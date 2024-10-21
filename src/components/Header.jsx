@@ -2,6 +2,7 @@
 import React from 'react';
 import '../style/Header.css';
 import iconEstrela from '../images/icon-estrela.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -9,25 +10,25 @@ function Header() {
       <nav className="navbar">
         <div className="navbar-title">
           <img src={iconEstrela}></img>
-          <h1>Noemi Cho</h1>
+          <Link to='/sobre'><h1>Noemi Cho</h1></Link>
           <p>Bacharelando em Ciência da Computação</p>
         </div>
         <div className="navbar-menu">
           <ul className="menu-items">
             <li className="menu-item">
-              <a href="#home">Home</a>
+              <Link to='/'><a>Home</a></Link>
             </li>
             <li className="menu-item">
-              <a href="#sobre">Sobre</a>
+              <Link to='/sobre'><a>Sobre</a></Link>
             </li>
             <li className="menu-item">
-              <a href="#experiencia">Experiência</a>
+              <Link to='/experiencia'><a>Experiência</a></Link>
             </li>
             <li className="menu-item">
-              <a href="#habilidades">Competências</a>
+              <Link to='/competencias'><a>Competências</a></Link>
             </li>
             <li className="menu-item">
-              <a href="#contato">Contato</a>
+              <Link to='/contato'><a>Contato</a></Link>
             </li>
           </ul>
         </div>
