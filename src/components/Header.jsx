@@ -10,7 +10,7 @@ function Header() {
       <nav className="navbar">
         <div className="navbar-title">
           <img src={iconEstrela}></img>
-          <Link to='/sobre'><h1>Noemi Cho</h1></Link>
+          <h1>Noemi Cho</h1>
           <p>Bacharelando em Ciência da Computação</p>
         </div>
         <div className="navbar-menu">
