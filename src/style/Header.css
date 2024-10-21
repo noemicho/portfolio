@@ -1,0 +1,56 @@
+header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+  
+/* Header.css */
+
+header {
+    background-color: #f8f9fa; /* Cor de fundo do header */
+  }
+  
+  .navbar {
+    display: flex;                /* Define o container como flexível */
+    justify-content: space-between; /* Espaço entre a marca e a nav */
+    padding: 10px 20px;          /* Padding para o navbar */
+  }
+  
+  .container {
+    display: flex;    
+    flex-direction: row;               /* Flexbox para o container */
+    align-items: center;          /* Centraliza verticalmente os itens */
+    width: 100%;                  /* Largura total */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;             /* Tamanho da fonte da marca */
+    text-decoration: none;        /* Remove o sublinhado */
+    color: #333;                  /* Cor do texto da marca */
+  }
+  
+  .navbar-nav {
+    display: flex;  
+    flex-direction: row;                 /* Define o container da nav como flexível */
+    gap: 20px;                   /* Espaçamento entre os itens */
+    list-style-type: none;        /* Remove marcadores de lista */
+    padding: 0;                   /* Remove padding padrão */
+    margin: 0;                    /* Remove margin padrão */
+  }
+  
+  .nav-item {
+    margin: 0;                   /* Remove margin padrão */
+  }
+  
+  .nav-link {
+    text-decoration: none;        /* Remove sublinhado */
+    color: #333;                  /* Cor do texto dos links */
+    padding: 8px 12px;           /* Padding para os links */
+    transition: background-color 0.3s; /* Efeito de transição */
+  }
+  
+  .nav-link:hover {
+    background-color: #ddd;      /* Cor de fundo ao passar o mouse */
+    border-radius: 4px;          /* Bordas arredondadas */
+  }
+  
