@@ -1,14 +1,8 @@
-.App {
-  text-align: center;
-}
 
 
 .App {
-  background-color: #282c34;
+  background-color: #2b1a38;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   /*justify-content: center; centraliza verticalmente*/ 
   font-size: calc(10px + 2vmin);
   color: white;
