@@ -11,6 +11,8 @@ function Header() {
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
+      <button className="btn btn-primary">Meu Botão Bootstrap</button>
+
     </header>
   );
 }
