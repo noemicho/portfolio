@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from '../components/Header.jsx'
 import '../style/Sobre.css';
+import fotoNoemi from '../images/foto-noemi.jpeg';
 
 function Sobre() {
     return (
@@ -9,8 +10,12 @@ function Sobre() {
             <Header />
             <div className='sobre'>
                 <div className='content-sobre'>
-                
-                    Olá, me chamo <h2>Noemi Cho de Almeida!</h2>
+                    <div className='principal'>
+                        <img className="foto" src={fotoNoemi}/>
+                        <div className='texto-principal'>
+                            Olá, me chamo <h2>Noemi Cho de Almeida!</h2>
+                        </div>
+                    </div>
                     <br></br>  
                     Tenho 21 anos e estou cursando Ciência da Computação
                     no Centro Federal de Educação Tecnológica Celso Suckow da Fonseca
@@ -24,7 +29,6 @@ function Sobre() {
                     buscando aprender e me atualizar, pois acredito que o aprendizado
                     contínuo é essencial para acompanhar as mudanças e evoluir como
                     desenvolvedora.
-
                 </div>
             </div>
         </>  

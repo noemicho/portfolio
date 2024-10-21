@@ -24,3 +24,22 @@
 .content-sobre h2{
     color: rgb(147, 71, 233);
 }
+
+.foto{
+    width: 120px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(139, 139, 139, 0.2); 
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 20px;
+    justify-content: center;
+}
