@@ -2,15 +2,29 @@
 import React from 'react';
 import '../style/Sobre.css';
 import fotoNoemi from '../images/foto-noemi.jpeg';
+import { useState } from 'react';
 
 function Sobre() {
+
+    const [isLoading, setIsLoading] = useState(true); 
+    const handleImageLoad = () => {
+        setIsLoading(false);
+    };
+
     return (
         <>
             
             <div className='sobre'>
                 <div className='content-sobre'>
                     <div className='principal'>
-                        <img className="foto" src={fotoNoemi} alt="foto-noemi"/>
+                        {isLoading &&
+                        (<div className="spinner-border text-light loading" role="status"></div>)}
+                        
+                        <img className="foto" 
+                            src={fotoNoemi} 
+                            alt="foto-noemi"
+                            onLoad={handleImageLoad}
+                            style={{ display: isLoading ? 'none' : 'block' }}/>
                         <div className='texto-principal'>
                             Olá, me chamo <h2>Noemi Cho de Almeida!</h2>
                         </div>
