@@ -51,3 +51,20 @@
 #whatsapp, #linkedin, #github{
     width: 70px;
 }
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.contato {
+    animation: zoom 3s infinite ease-in-out;
+}
+
