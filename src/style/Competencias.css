@@ -1,6 +1,6 @@
-/* Estilos para a seção de Competências */
+
 .competencias {
-    background: linear-gradient(135deg, #6a1b9a, #ab47bc); /* Gradiente roxo vibrante */
+    background: linear-gradient(135deg, #6a1b9a, #ab47bc); 
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -9,8 +9,12 @@
     transition: transform 0.3s ease;
 }
 
+.full-page{
+    padding: 50px;
+}
+
 .competencias:hover {
-    transform: scale(1.02); /* Leve aumento ao passar o mouse */
+    transform: scale(1.02); 
 }
 
 .competencias h3 {
@@ -25,14 +29,14 @@
 
 .competencias-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 15px;
     list-style: none;
     padding: 0;
 }
 
 .competencias-list li {
-    background-color: rgba(255, 255, 255, 0.2); /* Transparente com toque de branco */
+    background-color: rgba(255, 255, 255, 0.2); 
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
@@ -45,25 +49,25 @@
 }
 
 .competencias-list li::before {
-    content: "\2713"; /* Unicode do símbolo ✔ */
+    content: "\2713"; 
     position: absolute;
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
-    color: #4a0257; /* Cor roxa */
+    color: #4a0257; 
 }
 
 
 .competencias-list li:hover {
-    background-color: #fff; /* Fica branco ao passar o mouse */
-    color: #6a1b9a; /* E o texto roxo */
-    transform: translateY(-5px); /* Leve elevação ao hover */
+    background-color: #fff; 
+    color: #6a1b9a; 
+    transform: translateY(-5px); 
 }
 
-/* Estilos para a seção de Linguagens */
-.linguagens {
-    background-color: #ab47bc; /* Fundo lilás */
+
+.linguagens { 
+    background: linear-gradient(135deg, #ab47bc, #6a1b9a); 
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -72,7 +76,7 @@
 }
 
 .linguagens:hover {
-    transform: scale(1.02); /* Efeito de aumento */
+    transform: scale(1.02); 
 }
 
 .linguagens h3 {

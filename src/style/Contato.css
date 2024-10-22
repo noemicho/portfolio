@@ -13,6 +13,7 @@
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin-left: 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .div-1{
@@ -25,11 +26,13 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin-right: 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .titulo-contato{
     text-align: center;
     padding: 30px;
+    text-transform: uppercase;
 }
 
 .flex{
@@ -51,19 +54,11 @@
     width: 70px;
 }
 
-@keyframes zoom {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.02);
-    }
-    100% {
-        transform: scale(1);
-    }
+.div-1:hover {
+    transform: scale(1.02); 
 }
 
-.contato {
-    animation: zoom 3s infinite ease-in-out;
+.div-2:hover {
+    transform: scale(1.03); 
 }
 
