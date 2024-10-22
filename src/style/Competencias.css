@@ -1,0 +1,35 @@
+.competencias {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.competencias h3 {
+    color: #dea8ff; 
+    margin-bottom: 30px;
+    text-align: center; 
+    font-size: 30px;
+}
+
+.competencias-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    list-style-type: none; 
+    padding: 0;
+}
+
+.competencias li {
+    background-color: #d1c4e9b0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    flex: 0 1 calc(45% - 10px); 
+}
+
+.competencias li:hover {
+    background-color: #b39ddb; 
+}
