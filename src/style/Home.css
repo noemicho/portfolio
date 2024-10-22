@@ -1,4 +1,4 @@
-
+/* Estilos Gerais da Home */
 .home {
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     color: white;
     font-family: 'Poppins', sans-serif; 
     padding: 0 20px;
+    background: linear-gradient(135deg, #400168, #370441); /* Gradiente suave do roxo para lilás */
 }
 
 .introducao-home {
@@ -15,6 +16,9 @@
     max-width: 800px;
     margin-bottom: 50px;
     animation: fadeIn 1s ease-in-out;
+    background: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
 }
 
 .introducao-home h2 {
@@ -30,7 +34,6 @@
     line-height: 1.6;
     color: #e0e0e0;
 }
-
 
 .download-curriculo {
     display: flex;
@@ -75,7 +78,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Animações */
 @keyframes fadeIn {
     0% {
         opacity: 0;
