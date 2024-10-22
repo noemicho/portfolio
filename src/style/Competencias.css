@@ -1,35 +1,108 @@
+/* Estilos para a seção de Competências */
 .competencias {
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #6a1b9a, #ab47bc); /* Gradiente roxo vibrante */
     padding: 30px;
-    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.competencias:hover {
+    transform: scale(1.02); /* Leve aumento ao passar o mouse */
 }
 
 .competencias h3 {
-    color: #dea8ff; 
-    margin-bottom: 30px;
-    text-align: center; 
-    font-size: 30px;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .competencias-list {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around; 
-    list-style-type: none; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 15px;
+    list-style: none;
     padding: 0;
 }
 
-.competencias li {
-    background-color: #d1c4e9b0;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    flex: 0 1 calc(45% - 10px); 
+.competencias-list li {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparente com toque de branco */
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
 }
 
-.competencias li:hover {
-    background-color: #b39ddb; 
+.competencias-list li::before {
+    content: "\2713"; /* Unicode do símbolo ✔ */
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #4a0257; /* Cor roxa */
+}
+
+
+.competencias-list li:hover {
+    background-color: #fff; /* Fica branco ao passar o mouse */
+    color: #6a1b9a; /* E o texto roxo */
+    transform: translateY(-5px); /* Leve elevação ao hover */
+}
+
+/* Estilos para a seção de Linguagens */
+.linguagens {
+    background-color: #ab47bc; /* Fundo lilás */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.linguagens:hover {
+    transform: scale(1.02); /* Efeito de aumento */
+}
+
+.linguagens h3 {
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.linguagens ul {
+    list-style: none;
+    padding: 0;
+}
+
+.linguagens li {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2); /* Transparente com branco */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.linguagens li:hover {
+    background-color: #fff; /* Fica branco ao hover */
+    color: #ab47bc; /* Texto lilás */
+    transform: translateY(-5px);
 }
