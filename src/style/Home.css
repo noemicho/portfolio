@@ -1,95 +1,88 @@
-.download-curriculo{
+
+.home {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 30px;
-    text-align: center;
-    margin-right: 230px;
-    background-color: rgb(86, 16, 107);
-    border-radius: 30px;
-    animation: zoom 3s infinite ease-in-out;
-}
-
-.download-button{
-    background-color: aliceblue;
-    color: rgb(115, 43, 182);
-    font-weight: 400;
-    box-shadow: 0 4px 6px rgba(46, 0, 73, 0.3); 
-    border-radius: 15px;
-    padding: 10px;
-    border-color: rgb(80, 5, 150);
-    animation: changeColor 3s infinite, changeColorText 3s infinite;
-}
-
-.icon-button{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.icon-button button{
-    margin: 30px;
-}
-
-.home{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+    padding: 0 20px;
 }
 
 .introducao-home {
-    width: 40%;
-    margin: 0 auto;  
-    padding: 20px;   
     text-align: center;
-    text-align: justify;
-    margin-top: 80px;
+    max-width: 800px;
+    margin-bottom: 50px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.introducao-home h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 .introducao-home p {
-    font-size: 22px;
-    line-height: 2.0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #e0e0e0;
 }
 
-.introducao-home h2{
-    font-weight: 200;
-    color: rgb(233, 170, 248);
-    margin-bottom: 30px;
+
+.download-curriculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
-@keyframes changeColor {
+.titulo-download h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+}
+
+.icon-button {
+    text-align: center;
+}
+
+.download-button {
+    background: linear-gradient(90deg, #ab47bc, #6a1b9a); 
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.download-button:hover {
+    background: linear-gradient(90deg, #6a1b9a, #ab47bc); 
+    transform: scale(1.1); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.download-button:active {
+    transform: scale(1.05); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes fadeIn {
     0% {
-        background-color: aliceblue;
-    }
-    50% {
-        background-color: rgb(187, 122, 248);
+        opacity: 0;
+        transform: translateY(-20px);
     }
     100% {
-        background-color: aliceblue;
+        opacity: 1;
+        transform: translateY(0);
     }
 }
-
-@keyframes changeColorText {
-    0% {
-        color: rgb(115, 43, 182);
-    }
-    50% {
-        color: aliceblue;
-    }
-    100% {
-        color: rgb(115, 43, 182);
-    }
-}
-
-@keyframes zoom {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.02);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
