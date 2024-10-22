@@ -1,6 +1,5 @@
 
 import React from 'react';
-import Header from '../components/Header.jsx'
 import '../style/Sobre.css';
 import fotoNoemi from '../images/foto-noemi.jpeg';
 

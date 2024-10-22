@@ -1,6 +1,5 @@
 
 import React from 'react';
-import Header from '../components/Header.jsx'
 import '../style/Contato.css';
 import WhatsAppIcon from '../images/icon-whatsapp.png';
 import LinkedinIcon from '../images/icon-linkedin.png';
