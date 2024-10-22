@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header.jsx';
+import '../style/Home.css'
 
 function Home() {
     return (
