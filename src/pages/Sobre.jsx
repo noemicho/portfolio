@@ -11,7 +11,7 @@ function Sobre() {
             <div className='sobre'>
                 <div className='content-sobre'>
                     <div className='principal'>
-                        <img className="foto" src={fotoNoemi}/>
+                        <img className="foto" src={fotoNoemi} alt="foto-noemi"/>
                         <div className='texto-principal'>
                             Olá, me chamo <h2>Noemi Cho de Almeida!</h2>
                         </div>
