@@ -2,6 +2,9 @@
 import React from 'react';
 import Header from '../components/Header.jsx'
 import '../style/Contato.css';
+import WhatsAppIcon from '../images/icon-whatsapp.png';
+import LinkedinIcon from '../images/icon-linkedin.png';
+import GithubIcon from '../images/icon-github.png';
 
 function Contato() {
     return (
@@ -20,9 +23,15 @@ function Contato() {
                     </div>
                 </div>
                 <div className='div-2'>
-                    <a href='https://wa.me/qr/7V224DCI45OIK1'>zap</a>
-                    <a href='https://www.linkedin.com/in/noemi-cho-curriculo/'>Linkedin</a>
-                    <a href='https://github.com/noemicho'>Github</a>
+                    <a href='https://wa.me/qr/7V224DCI45OIK1' target="_blank" rel="noopener noreferrer">
+                        <img id='whatsapp' src={WhatsAppIcon} alt="WhatsApp" />
+                    </a>
+                    <a href='https://www.linkedin.com/in/noemi-cho-curriculo/' target="_blank" rel="noopener noreferrer">
+                        <img id='linkedin' src={LinkedinIcon} alt="LinkedIn" />
+                    </a>
+                    <a href='https://github.com/noemicho' target="_blank" rel="noopener noreferrer">
+                        <img id='github' src={GithubIcon} alt="GitHub" />
+                    </a>
                 </div>
             </div>
         </>    
