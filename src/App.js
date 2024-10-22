@@ -9,6 +9,7 @@ function App() {
   return (
 
       <BrowserRouter>
+      <Header></Header>
         <div className="App">
           <RoutesApp /> 
         </div>

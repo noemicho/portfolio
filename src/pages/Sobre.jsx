@@ -7,7 +7,7 @@ import fotoNoemi from '../images/foto-noemi.jpeg';
 function Sobre() {
     return (
         <>
-            <Header />
+            
             <div className='sobre'>
                 <div className='content-sobre'>
                     <div className='principal'>

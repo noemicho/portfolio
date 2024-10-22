@@ -9,7 +9,7 @@ import GithubIcon from '../images/icon-github.png';
 function Contato() {
     return (
         <>
-            <Header />
+            
             <div className='titulo-contato'>
                     <h2>Meus Contatos</h2>
             </div>
