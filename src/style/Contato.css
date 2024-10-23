@@ -2,7 +2,7 @@
 .full-contato {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 30px;
     align-items: center;
     height: 100vh; 
     animation: fadeIn 1s ease-in-out;
