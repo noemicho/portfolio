@@ -6,7 +6,7 @@ function Home() {
         <>   
             <div className='home'>
                 <div className='introducao-home'>
-                    <h2>Bem-vindo(a) ao meu Portfólio!</h2>
+                    <h2>Bem-vindo(a)!</h2>
                     <p>Navegando pelo Menu, é possível visualizar páginas que fazem um resumo sobre mim, minhas experiências profissionais e competências. Além disso, em Contato, você pode anotar meus meios de contato, podendo visualizar meu Linkedin e Repositórios do Github.</p>
 
                 </div>

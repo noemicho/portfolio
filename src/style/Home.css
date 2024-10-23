@@ -1,4 +1,4 @@
-/* Estilos Gerais da Home */
+
 .home {
     display: flex;
     flex-direction: column;
@@ -8,17 +8,17 @@
     color: white;
     font-family: 'Poppins', sans-serif; 
     padding: 0 20px;
-    background: linear-gradient(135deg, #400168, #370441); /* Gradiente suave do roxo para lilás */
+    background: linear-gradient(135deg, #280a3d, #3e2b50); 
 }
 
 .introducao-home {
-    text-align: center;
-    max-width: 800px;
+    text-align: justify;
+    max-width: 600px;
     margin-bottom: 50px;
     animation: fadeIn 1s ease-in-out;
-    background: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+    background: rgba(0, 0, 0, 0.1); 
     padding: 20px;
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 10px; 
 }
 
 .introducao-home h2 {
@@ -27,6 +27,7 @@
     margin-bottom: 20px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .introducao-home p {
@@ -39,13 +40,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeIn 1.5s ease-in-out;
+    animation: fadeIn 1.2s ease-in-out;
 }
 
 .titulo-download h2 {
     font-size: 30px;
     margin-bottom: 20px;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.8 px;
     color: #ffffff;
 }
 
@@ -78,7 +79,6 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Animações */
 @keyframes fadeIn {
     0% {
         opacity: 0;

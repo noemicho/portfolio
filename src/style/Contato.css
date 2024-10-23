@@ -1,64 +1,96 @@
-.contato{
+
+.full-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    animation: fadeIn 1s ease-in-out;
+}
+
+.titulo-contato h2{
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    color: rgb(235, 211, 247); 
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+.contato {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.div-2{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(233, 216, 249);
-    align-items: center;
+    margin: 20px 0;
+    background: rgba(31, 30, 30, 0.5); 
     border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    margin-left: 40px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    padding: 40px;
 }
 
-.div-1{
+
+.div-1, .div-2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: rgb(233, 216, 249);
-    color: rgb(64, 8, 92);
-    font-size: 22px;
     border-radius: 30px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    margin-right: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.titulo-contato{
-    text-align: center;
-    padding: 30px;
-    text-transform: uppercase;
+.div-1 {
+    margin-right: 40px;
+    color: rgb(64, 8, 92);
+    font-size: 22px;
 }
 
-.flex{
+.div-2 {
+    margin-left: 40px;
+}
+
+.flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 10px 0;
 }
 
-.flex p{
+.flex p {
     font-weight: 500;
 }
 
-.flex span{
-    font-weight: 330;
+.flex span {
+    font-weight: 400;
     margin-left: 10px;
+    word-wrap: break-word;
 }
 
-#whatsapp, #linkedin, #github{
+#whatsapp, #linkedin, #github {
     width: 70px;
+    margin: 10px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.div-1:hover {
-    transform: scale(1.02); 
+#whatsapp:hover, #linkedin:hover, #github:hover {
+    transform: scale(1.1);
 }
 
-.div-2:hover {
-    transform: scale(1.03); 
+
+.div-1:hover, .div-2:hover {
+    transform: scale(1.03);
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0.2;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -98,7 +98,7 @@
     font-size: 18px;
     text-align: center;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.2); /* Transparente com branco */
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     margin-bottom: 10px;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -106,7 +106,7 @@
 }
 
 .linguagens li:hover {
-    background-color: #fff; /* Fica branco ao hover */
-    color: #ab47bc; /* Texto lilás */
+    background-color: #fff; 
+    color: #ab47bc; 
     transform: translateY(-5px);
 }
