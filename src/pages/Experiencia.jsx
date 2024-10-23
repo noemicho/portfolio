@@ -37,7 +37,6 @@ function Experiencia() {
                     <div className="timeline-content">
                         <h2>Jovem Aprendiz Infraestrutura TI</h2>
                         <p className="empresa">Studio VS | CIEE Rio - Centro de Integração Empresa Escola</p>
-                        <p className="certificado">Certificado de Conclusão de Curso de Inglês - Wizard by Pearson</p>
                         <p className="descricao">
                             Montar, instalar, configurar e reconfigurar dispositivos de hardware; Auxiliar na manutenção de computadores, notebooks, monitores e impressoras; Gerenciar estoque do setor; Auxiliar usuários a partir de tickets-chamados.
                         </p>
