@@ -12,19 +12,19 @@
   align-items: center; 
 }
 
-.navbar-title{
+.navbar-title {
   display: flex;
   flex-direction: row;
   align-items: end;
 }
 
-.navbar-title h1{
+.navbar-title h1 {
   margin: 0;
   font-size: 28px;
   color: #8b09be;
 }
 
-.navbar-title p{
+.navbar-title p {
   margin: 0;
   margin-left: 10px;
   margin-bottom: 3px;
@@ -32,7 +32,7 @@
   color: rgb(120, 66, 165);
 }
 
-.navbar-title img{
+.navbar-title img {
   margin: 0;
   width: 30px;
   margin-right: 12px;
@@ -40,6 +40,7 @@
 
 .navbar-menu {
   display: flex;
+  flex-direction: row;
 }
 
 .menu-items {
@@ -47,10 +48,11 @@
   list-style: none; 
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .menu-item {
-  margin-left: 70px; 
+  margin-left: 20px; 
 }
 
 .menu-item button {
@@ -67,32 +69,19 @@
   color: #c270e9; 
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 .header img {
   animation: spin 10s linear infinite; 
 }
 
 @media (max-width: 768px) {
-  .navbar {
+  .navbar-menu {
     flex-direction: column; 
     align-items: flex-start; 
   }
 
-  .navbar-title {
-    margin-bottom: 10px; 
-  }
-
-  .navbar-menu {
-    justify-content: center; 
-    width: 100%; 
+  .menu-items {
+    display: flex;
+    flex-direction: column;
   }
 
   .menu-item {
