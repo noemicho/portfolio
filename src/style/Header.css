@@ -79,3 +79,28 @@
 .header img {
   animation: spin 10s linear infinite; 
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .navbar-title {
+    margin-bottom: 10px; 
+  }
+
+  .navbar-menu {
+    justify-content: center; 
+    width: 100%; 
+  }
+
+  .menu-item {
+    margin-left: 0; 
+    margin-bottom: 10px; 
+  }
+
+  .menu-item button {
+    font-size: 18px; 
+  }
+}
