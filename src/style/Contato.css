@@ -94,3 +94,32 @@
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+    .contato {
+        flex-direction: column; /* Altera para coluna em telas menores */
+        align-items: center; /* Centraliza os itens */
+        padding: 20px; /* Diminui o padding */
+    }
+
+    .div-1, .div-2 {
+        margin: 0; /* Remove margens laterais */
+        margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+        width: 100%; /* Permite que as divs ocupem toda a largura */
+        max-width: 350px; /* Define uma largura máxima */
+    }
+
+    .div-1 {
+        color: rgb(64, 8, 92);
+        font-size: 15px; /* Diminui o tamanho da fonte em telas menores */
+    }
+
+    .div-2 {
+        display: flex;
+        justify-content: center; /* Centraliza os ícones */
+    }
+
+    #whatsapp, #linkedin, #github {
+        width: 50px; /* Diminui o tamanho dos ícones */
+    }
+}
