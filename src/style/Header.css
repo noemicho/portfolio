@@ -53,15 +53,17 @@
   margin-left: 70px; 
 }
 
-.menu-item a {
+.menu-item button {
   text-decoration: none;
   font-size: 22px;
   font-weight: 450;
   color: #780096;
   transition: color 0.3s ease;
+  background-color: transparent;
+  border: none;
 }
 
-.menu-item a:hover {
+.menu-item button:hover {
   color: #c270e9; 
 }
 

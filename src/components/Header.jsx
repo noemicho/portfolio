@@ -9,26 +9,26 @@ function Header() {
     <div className='header'>
       <nav className="navbar">
         <div className="navbar-title">
-          <img src={iconEstrela}></img>
+          <img src={iconEstrela} alt='icone-estrela'></img>
           <h1>Noemi Cho</h1>
           <p>Bacharelando em Ciência da Computação</p>
         </div>
         <div className="navbar-menu">
           <ul className="menu-items">
             <li className="menu-item">
-              <Link to='/'><a>Home</a></Link>
+              <Link to='/'><button href=''>Home</button></Link>
             </li>
             <li className="menu-item">
-              <Link to='/sobre'><a>Sobre</a></Link>
+              <Link to='/sobre'><button >Sobre</button></Link>
             </li>
             <li className="menu-item">
-              <Link to='/experiencia'><a>Experiência</a></Link>
+              <Link to='/experiencia'><button>Experiência</button></Link>
             </li>
             <li className="menu-item">
-              <Link to='/competencias'><a>Competências</a></Link>
+              <Link to='/competencias'><button>Competências</button></Link>
             </li>
             <li className="menu-item">
-              <Link to='/contato'><a>Contato</a></Link>
+              <Link to='/contato'><button>Contato</button></Link>
             </li>
           </ul>
         </div>
