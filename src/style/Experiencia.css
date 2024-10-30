@@ -1,4 +1,3 @@
-
 .timeline-container {
     padding: 50px;
     display: flex;
@@ -15,7 +14,6 @@
     font-weight: 700;
     font-size: 35px;
 }
-
 
 .timeline {
     position: relative;
@@ -36,12 +34,24 @@
 
 .timeline-dot {
     position: absolute;
-    left: -10px;
+    left: -35px;
     top: 20px;
-    width: 20px;
-    height: 20px;
-    background-color: #ab47bc;
-    border-radius: 50%;
+    width: 70px; /* Largura do quadrado */
+    height: 40px; /* Altura do quadrado */
+    background-color: #a65eb3;
+    border-radius: 15px; /* Bordas arredondadas */
+    display: flex; /* Usando flexbox para centralizar o texto */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    color: #ffffff; /* Cor do texto */
+    font-size: 14px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.timeline-dot:hover {
+    background-color: #9c27b0; /* Cor ao passar o mouse */
 }
 
 
@@ -64,7 +74,6 @@
     font-size: 16px;
     color: #e0e0e0;
 }
-
 
 .timeline-content:hover {
     background-color: #664581; 

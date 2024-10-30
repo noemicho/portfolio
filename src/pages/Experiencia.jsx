@@ -4,12 +4,23 @@ import '../style/Experiencia.css';
 function Experiencia() {
     return (
         <div className="timeline-container">
-            <h1>Experiência</h1>
+            {/*<h1>Experiência</h1>*/}
             
             <div className="timeline">
                 
                 <div className="timeline-item">
-                    <div className="timeline-dot"></div>
+                    <div className="timeline-dot">09/2024</div>
+                    <div className="timeline-content">
+                        <h2>Pesquisa sobre Predição de Atraso Aéreo</h2>
+                        <p className="empresa">Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ)</p>
+                        <p className="descricao">
+                            Iniciei uma pesquisa sob a orientação do professor Eduardo Ogasawara, focada na predição de atrasos em voos. Estamos desenvolvendo modelos utilizando a linguagem R e o pacote <code>daltoolbox</code>, analisando dados de voos, incluindo horários, condições meteorológicas e tráfego aéreo. 
+                        </p>
+                    </div>
+                </div>
+
+                <div className="timeline-item">
+                    <div className="timeline-dot">04/2024</div>
                     <div className="timeline-content">
                         <h2>Estagiária TI</h2>
                         <p className="empresa">Centauro Engenharia</p>
@@ -19,9 +30,8 @@ function Experiencia() {
                     </div>
                 </div>
 
-                
                 <div className="timeline-item">
-                    <div className="timeline-dot"></div>
+                    <div className="timeline-dot">12/2023</div>
                     <div className="timeline-content">
                         <h2>Jovem Aprendiz Relatórios</h2>
                         <p className="empresa">Studio VS | Sistemas Exclusivos para a Gestão de Shopping Centers</p>
@@ -31,9 +41,8 @@ function Experiencia() {
                     </div>
                 </div>
 
-                
                 <div className="timeline-item">
-                    <div className="timeline-dot"></div>
+                    <div className="timeline-dot">05/2023</div>
                     <div className="timeline-content">
                         <h2>Jovem Aprendiz Infraestrutura TI</h2>
                         <p className="empresa">Studio VS | CIEE Rio - Centro de Integração Empresa Escola</p>
@@ -42,6 +51,30 @@ function Experiencia() {
                         </p>
                     </div>
                 </div>
+
+                <div className="timeline-item">
+                    <div className="timeline-dot">12/2020</div>
+                    <div className="timeline-content">
+                        <h2>Conclusão de Ensino Médio</h2>
+                        <p className="empresa">Pensi Colégio e Curso</p>
+                        <p className="descricao">
+                            Concluí o Ensino Médio em 2020, abrangendo todos os três anos de formação, o que me proporcionou uma base sólida para o meu desenvolvimento acadêmico.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="timeline-item">
+                    <div className="timeline-dot">02/2020</div>
+                    <div className="timeline-content">
+                        <h2>Conclusão de Curso de Inglês</h2>
+                        <p className="empresa">Wizard by Pearson</p>
+                        <p className="descricao">
+                            Completei o curso de inglês em 2020, adquirindo habilidades avançadas em comunicação, compreensão e escrita na língua inglesa.
+                        </p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     );

@@ -9,7 +9,10 @@ function App() {
   return (
 
       <BrowserRouter>
-      <Header></Header>
+      <div className='header'>
+        <Header></Header>
+      </div>
+      
         <div className="App">
           <RoutesApp /> 
         </div>
