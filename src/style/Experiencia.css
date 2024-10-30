@@ -36,22 +36,22 @@
     position: absolute;
     left: -35px;
     top: 20px;
-    width: 70px; /* Largura do quadrado */
-    height: 40px; /* Altura do quadrado */
+    width: 70px;
+    height: 40px; 
     background-color: #a65eb3;
-    border-radius: 15px; /* Bordas arredondadas */
-    display: flex; /* Usando flexbox para centralizar o texto */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    color: #ffffff; /* Cor do texto */
-    font-size: 14px; /* Aumenta o tamanho da fonte */
-    font-weight: bold; /* Deixa o texto em negrito */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
-    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+    border-radius: 15px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #ffffff;
+    font-size: 14px; 
+    font-weight: bold; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease; 
 }
 
 .timeline-dot:hover {
-    background-color: #9c27b0; /* Cor ao passar o mouse */
+    background-color: #9c27b0; 
 }
 
 

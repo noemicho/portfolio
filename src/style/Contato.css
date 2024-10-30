@@ -97,29 +97,29 @@
 
 @media (max-width: 768px) {
     .contato {
-        flex-direction: column; /* Altera para coluna em telas menores */
-        align-items: center; /* Centraliza os itens */
-        padding: 20px; /* Diminui o padding */
+        flex-direction: column; 
+        align-items: center; 
+        padding: 20px; 
     }
 
     .div-1, .div-2 {
-        margin: 0; /* Remove margens laterais */
-        margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
-        width: 100%; /* Permite que as divs ocupem toda a largura */
-        max-width: 350px; /* Define uma largura máxima */
+        margin: 0; 
+        margin-bottom: 20px; 
+        width: 100%; 
+        max-width: 350px; 
     }
 
     .div-1 {
         color: rgb(64, 8, 92);
-        font-size: 15px; /* Diminui o tamanho da fonte em telas menores */
+        font-size: 15px; 
     }
 
     .div-2 {
         display: flex;
-        justify-content: center; /* Centraliza os ícones */
+        justify-content: center; 
     }
 
     #whatsapp, #linkedin, #github {
-        width: 50px; /* Diminui o tamanho dos ícones */
+        width: 50px; 
     }
 }
